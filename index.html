@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<title>Title</title>
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-light bg-dark justify-content-between">
+            <div class="d-flex ms-3 align-items-center title">
+            <img id="pokedex-icon" src="pokedex.jpg" alt="pokedex icon" class="img-fluid object-fit-cover">
+            <h1 class="text-light m-0">Pokedex</h1>
+            </div>
+            <div class="me-5">
+            <input type="text" id="search" class="rounded-pill p-1" placeholder="Enter name or #" >
+            <button onClick="api()" class="rounded-pill p-1 ps-3 pe-3">Search</button>
+            </div>
+        </nav>
+    </section>
+<section class="d-flex flex-column ps-5 pe-5 mt-5 ms-auto me-auto rounded pokedex">
+    <div id="pokedex-entry" class="rounded">
+    <div class="d-flex mb-5 mt-5">
+            <img class="col-6" id="pic" src="default-poke-pic.jpg" alt="pokemon">
+        <div id="poke-info" class="p-5 rounded ms-5 me-4 d-flex flex-column justify-content-around">
+            <h1 id="dex-title" class="fw-bold"></h1>
+            <h2 id="dex-number"></h1>
+            <h2 id="height"></h1>
+            <h2 id="weight"></h1>
+            <h2 id="type1"></h1>
+            <h2 id="type2"></h1>
+        </div>
+    </div>
+    <div id="descript" class="ms-4 mb-5 p-5 me-4">
+        <h1 id="info">hi</h1>
+    </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

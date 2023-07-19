@@ -1,0 +1,34 @@
+.pokedex{
+    height: auto;
+    width: 33%;
+    background-image: url(pokedexx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pokedex-entry{
+    margin-top: 45%;
+    margin-bottom: 8%;
+    background-color: #e65a65;
+    visibility: hidden;
+
+}
+
+#poke-info{
+    white-space: nowrap;
+}
+#pokedex-icon{
+    width: 10%;
+}
+
+#poke-info{
+    background-color: #E44C58;
+}
+#descript{
+    background-color: #E44C58;
+}
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
